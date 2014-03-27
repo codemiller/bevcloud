@@ -1,0 +1,46 @@
+.index {
+  background: #333 url("http://de.sap.info/wp-content/uploads/2013/09/Bier_Gl%C3%A4ser_Cloud_Shutterstock.jpg") 0% 0% no-repeat !important;
+}
+.beer {
+  background: #333 url("http://ify.valuewalk.com/wp-content/uploads/2013/10/Malaysia-beer.jpg") 50% 50% no-repeat !important;
+}
+.white-wine {
+  background: #333 url("http://cdn.morguefile.com/imageData/public/files/c/christilper/preview/fldr_2008_11_08/file0001797844839.jpg") 20% 20% no-repeat !important;
+}
+.rose {
+  background: #333 url("http://cdn.morguefile.com/imageData/public/files/o/odapi/preview/fldr_2008_11_28/file000777588475.jpg") 30% 10% no-repeat !important;
+}
+.red-wine {
+  background: #333 url("http://cdn.morguefile.com/imageData/public/files/p/photomaryke/preview/fldr_2009_06_11/file8441244751254.jpg") 20% 20% no-repeat !important;
+}
+.cider {
+  background: #333 url("http://cdn.morguefile.com/imageData/public/files/c/clarita/preview/fldr_2004_06_19/file0001711356034.jpg") 30% 30% no-repeat !important;
+}
+.cocktail {
+  background: #333 url("http://cdn.morguefile.com/imageData/public/files/p/photomaryke/preview/fldr_2009_06_11/file4651244751176.jpg") 0% 30% no-repeat !important;
+}
+.other {
+  background: #333 url("http://cdn.morguefile.com/imageData/public/files/d/demondimum/preview/fldr_2008_11_11/file0001307614608.jpg") 10% 0% no-repeat !important;
+}
+.error-page {
+  background: #333 url("http://cdn.morguefile.com/imageData/public/files/i/irisheyes/preview/fldr_2006_07_04/file00079852820.jpg") 10% 0% no-repeat !important;
+}
+.cover {
+  background-size: cover !important;
+}
+div.result,
+div.home,
+div.error {
+  background: rgba(40,40,40,0.8);
+  font-size: 2.5em;
+  padding: 1.5em;
+  max-width: 25em;
+  margin: 2em auto;
+  color: #fff;
+  font-family: "dejavu sans mono", "source code pro", "droid sans mono", monaco, monospace;
+  transition: all 0.5s ease;
+}
+div.result:hover {
+  background-color: #fff;
+  color: #000;
+}
