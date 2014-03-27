@@ -34,13 +34,10 @@ app.use(app.router);
 
 // Routes
 app.get('/', renderIndex);
-app.get('/beer/:quantity', renderResult('beer', 300, 5));
-app.get('/cider/:quantity', renderResult('cider', 450, 6));
-app.get('/white/:quantity', renderResult('white-wine', 150, 11.5));
-app.get('/red/:quantity', renderResult('red-wine', 150, 13));
-app.get('/cocktail/:quantity', renderResult('cocktail', 250, 30));
-app.get('/rose/:quantity', renderResult('rose', 150, 10));
-app.get('/other/:quantity', renderResult('other', 150, 20));
+app.get('/beer/:quantity', renderResult('beer', 425, 4.6));
+app.get('/cider/:quantity', renderResult('cider', 425, 5));
+app.get('/white/:quantity', renderResult('white-wine', 150, 11));
+app.get('/red/:quantity', renderResult('red-wine', 150, 13.5));
 
 // Catch 404s
 app.use(function(req, res, next) {
